@@ -225,11 +225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj",
       "projectName": "StarwarsApp.Core",
-      "projectPath": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

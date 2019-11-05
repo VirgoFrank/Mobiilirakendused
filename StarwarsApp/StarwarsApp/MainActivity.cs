@@ -18,34 +18,21 @@ namespace StarwarsApp
 
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            var peopleSearch = FindViewById<Button>(Resource.Id.People_search_btn);
 
-           
+        }
 
-           
-            
-            var searchfield = FindViewById<EditText>(Resource.Id.searchEditText);
-            var searchButton = FindViewById<Button>(Resource.Id.searchButton);
-            var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
-           
-            searchButton.Click += async delegate
-            {
-                var searchText = searchfield.Text;
-                var queryString = "https://swapi.co/api/people/?search=" + searchText;
-                var data = await DataService.GetStarWarsPeople(queryString);
-                peopleListView.Adapter = new StarWarsPeopleAdapter(this, data.Results);
-               
-            };
-             
+        private void ToCarButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(searc));
+            StartActivity(intent);
         }
 
 
 
-      
-      
 
-       
 
-       
+
     }
 }
 

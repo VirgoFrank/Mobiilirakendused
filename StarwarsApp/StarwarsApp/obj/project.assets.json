@@ -539,11 +539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\StarwarsApp.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\StarwarsApp.csproj",
       "projectName": "StarwarsApp",
-      "projectPath": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\StarwarsApp.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\StarwarsApp.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -560,8 +560,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj": {
-              "projectPath": "C:\\Users\\opilane\\Desktop\\New folder\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj"
+            "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj": {
+              "projectPath": "C:\\Users\\opilane\\Desktop\\xamarin\\New folder (2)\\Mobiilirakendused\\StarwarsApp\\StarwarsApp.Core\\StarwarsApp.Core.csproj"
             }
           }
         }

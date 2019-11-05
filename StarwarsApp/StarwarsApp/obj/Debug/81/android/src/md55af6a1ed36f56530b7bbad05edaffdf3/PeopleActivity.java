@@ -1,8 +1,8 @@
 package md55af6a1ed36f56530b7bbad05edaffdf3;
 
 
-public class StarWarsListActivity
-	extends android.app.ListActivity
+public class PeopleActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -12,15 +12,15 @@ public class StarWarsListActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("StarwarsApp.StarWarsListActivity, StarwarsApp", StarWarsListActivity.class, __md_methods);
+		mono.android.Runtime.register ("StarwarsApp.PeopleActivity, StarwarsApp", PeopleActivity.class, __md_methods);
 	}
 
 
-	public StarWarsListActivity ()
+	public PeopleActivity ()
 	{
 		super ();
-		if (getClass () == StarWarsListActivity.class)
-			mono.android.TypeManager.Activate ("StarwarsApp.StarWarsListActivity, StarwarsApp", "", this, new java.lang.Object[] {  });
+		if (getClass () == PeopleActivity.class)
+			mono.android.TypeManager.Activate ("StarwarsApp.PeopleActivity, StarwarsApp", "", this, new java.lang.Object[] {  });
 	}
 
 

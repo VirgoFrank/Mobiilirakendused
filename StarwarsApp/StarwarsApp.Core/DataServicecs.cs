@@ -20,6 +20,8 @@ namespace StarwarsApp.Core
             {
                 data = JsonConvert.DeserializeObject<People>(response);
             }
+            
+               
             return data;
         }
     }
