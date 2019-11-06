@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StarwarsApp.Core
 {
-    class Planets
+    public partial class Planets
     {
         public long Count { get; set; }
         public object Next { get; set; }

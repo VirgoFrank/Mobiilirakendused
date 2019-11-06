@@ -24,3 +24,11 @@ C:\Users\opilane\Desktop\xamarin\New folder (2)\Mobiilirakendused\StarwarsApp\St
 C:\Users\opilane\Desktop\xamarin\New folder (2)\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.AssemblyInfo.cs
 C:\Users\opilane\Desktop\xamarin\New folder (2)\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.dll
 C:\Users\opilane\Desktop\xamarin\New folder (2)\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.pdb
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\bin\Debug\netstandard2.0\StarwarsApp.Core.deps.json
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\bin\Debug\netstandard2.0\StarwarsApp.Core.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\bin\Debug\netstandard2.0\StarwarsApp.Core.pdb
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.csprojAssemblyReference.cache
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.AssemblyInfoInputs.cache
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.AssemblyInfo.cs
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.pdb

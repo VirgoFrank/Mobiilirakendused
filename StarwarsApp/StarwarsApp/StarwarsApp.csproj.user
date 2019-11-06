@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-J600FN</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <DefaultDevice>nexus_7_pie_9_0_api_28</DefaultDevice>
   </PropertyGroup>
 </Project>

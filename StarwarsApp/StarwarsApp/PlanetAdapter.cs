@@ -11,12 +11,15 @@ namespace StarwarsApp
     {
         List<PlanetDetails> _items;
         Activity _context;
+      
 
         public PlanetAdapter(Activity context, List<PlanetDetails> items) : base()
         {
             this._context = context;
             this._items = items;
         }
+
+      
 
         public override PlanetDetails this[int position]
         {
