@@ -14,14 +14,14 @@ namespace StarwarsApp.Core
     public partial class PlanetDetails
     {
         public string Name { get; set; }
-        public long rotation_period { get; set; }
-        public long orbital_period { get; set; }
-        public long diameter { get; set; }
-        public long climate { get; set; }
-        public long gravity { get; set; }
+        public string rotation_period { get; set; }
+        public string orbital_period { get; set; }
+        public string diameter { get; set; }
+        public string climate { get; set; }
+        public string gravity { get; set; }
         public string terrain { get; set; }
-        public long surface_water { get; set; }
-        public long population { get; set; }
+        public string surface_water { get; set; }
+        public string population { get; set; }
     }
    
 }

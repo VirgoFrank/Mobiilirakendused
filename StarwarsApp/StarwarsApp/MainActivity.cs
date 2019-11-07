@@ -10,11 +10,10 @@ using Android.Content;
 
 using StarwarsApp;
 using StarwarsApp.Core;
-using Android.Views;
 
 namespace StarwarsApp
 {
-    [Activity(Label = "string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Icon = "@drawable/icon", Label = "Star wars app", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 
@@ -29,12 +28,17 @@ namespace StarwarsApp
             starshipSearch.Click += Starship_search;
             planestSearch.Click += Planets_Search;
             peopleSearch.Click += People_Search;
+          //  var image = FindViewById<ImageView>(Resource.Id.imageview)
+          //  var drawable = (int)typeof(Resource.Drawable).GetField("ic_launcer").GetValue(null);
+            //image.SetImageResource(drawable);
+
         }
 
         private void People_Search(object sender, EventArgs e)
         {
             var intent = new Intent(this, typeof(PeopleActivity));
             StartActivity(intent);
+          
         }
         private void Planets_Search(object sender, EventArgs e)
         {

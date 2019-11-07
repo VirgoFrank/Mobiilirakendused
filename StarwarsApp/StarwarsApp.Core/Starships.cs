@@ -16,10 +16,10 @@ namespace StarwarsApp.Core
     {
             public string Name { get; set; }
             public string model { get; set; }
-            public long cost_in_credits { get; set; }
-            public long length { get; set; }
-            public long crew { get; set; }
-            public long passengers { get; set; }
+            public string cost_in_credits { get; set; }
+            public string length { get; set; }
+            public string crew { get; set; }
+            public string passengers { get; set; }
           
         
     }

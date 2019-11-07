@@ -44,7 +44,7 @@ namespace StarwarsApp
             if (view == null)
                 view = _context.LayoutInflater.Inflate(Resource.Layout.SecondLayout, null);
             view.FindViewById<TextView>(Resource.Id.textView1).Text = item.Name;
-            view.FindViewById<TextView>(Resource.Id.textView2).Text = item.climate.ToString();
+            view.FindViewById<TextView>(Resource.Id.textView2).Text = item.diameter.ToString();
             view.FindViewById<TextView>(Resource.Id.textView3).Text = item.gravity.ToString();
             view.FindViewById<TextView>(Resource.Id.textView4).Text = item.terrain.ToString();
 
