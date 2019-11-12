@@ -26,7 +26,7 @@ namespace StarwarsApp.Core
         }
 
         public static async Task<Planets> GetStarWarsPlanets(string queryString)
-            {
+        {
                 HttpClient client = new HttpClient();
                 var response = await client.GetStringAsync(queryString);
 
@@ -38,10 +38,11 @@ namespace StarwarsApp.Core
 
 
                 return data;
-            }
-          
+        }
 
-            public static async Task<People> GetStarWarsPeople(string queryString)
+
+
+       public static async Task<People> GetStarWarsPeople(string queryString)
         {
             HttpClient client = new HttpClient();
             var response = await client.GetStringAsync(queryString);
@@ -57,6 +58,19 @@ namespace StarwarsApp.Core
         
       
         }
+        public static async Task<Films> GetStarWarsFilms(string queryString)
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetStringAsync(queryString);
+
+            Films data = null;
+            if (response != null)
+            {
+                data = JsonConvert.DeserializeObject<Films>(response);
+            }
+            return data;
+        }
+
     }
    
 }

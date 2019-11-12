@@ -59,6 +59,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Film\FilmActivity.cs" />
+    <Compile Include="Film\Film_Adapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PeopleActivity.cs" />
     <Compile Include="PlanetAdapter.cs" />
@@ -127,7 +129,11 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_main.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\FilmLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.jpg" />
   </ItemGroup>

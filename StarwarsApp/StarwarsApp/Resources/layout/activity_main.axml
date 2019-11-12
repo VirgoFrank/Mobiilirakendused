@@ -30,6 +30,13 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/Starship_search_btn" />
+		<Button
+			android:text="Films"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/Film_Seach_Button" />
 		
 	</LinearLayout>
 	

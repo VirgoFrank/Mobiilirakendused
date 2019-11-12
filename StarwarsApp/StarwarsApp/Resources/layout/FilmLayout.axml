@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/FilmsLinearlayout">
+		
+		<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" >
+		<TextView
+			android:text="Flim"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left"
+			android:id="@+id/textViewFilm" />
+		<TextView
+		android:text="Aasta"
+		android:layout_height="wrap_content"
+		android:id="@+id/textViewAasta" 
+		android:gravity="right"
+		android:layout_width="match_parent"/>
+	</LinearLayout>
+	<TextView
+		android:text="Kirjeldus"
+		android:layout_height="wrap_content"
+		android:id="@+id/textViewKirjeldus" 
+		android:gravity="left"
+		android:layout_width="match_parent"/>
+	
+	</LinearLayout>
+</LinearLayout>

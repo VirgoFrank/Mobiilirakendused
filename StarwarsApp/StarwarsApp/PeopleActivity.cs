@@ -24,6 +24,14 @@ namespace StarwarsApp
             var searchfield = FindViewById<EditText>(Resource.Id.searchEditText);
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
+            InitailSearchAsync();
+
+            async System.Threading.Tasks.Task InitailSearchAsync() 
+            {
+                var queryString = "https://swapi.co/api/people/?search=";
+                var data = await DataService.GetStarWarsPeople(queryString);
+                peopleListView.Adapter = new StarWarsPeopleAdapter(this, data.Results);
+            }
 
             searchButton.Click += async delegate
             {

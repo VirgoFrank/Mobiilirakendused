@@ -24,7 +24,14 @@ namespace StarwarsApp
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
 
-            
+            InitailSearchAsync();
+
+            async System.Threading.Tasks.Task InitailSearchAsync()
+            {
+                var queryString = "https://swapi.co/api/planets/?search=";
+                var data = await DataService.GetStarWarsPlanets(queryString);
+                peopleListView.Adapter = new PlanetAdapter(this, data.Results);
+            }
 
             searchButton.Click += async delegate
             {
