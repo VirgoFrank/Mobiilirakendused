@@ -44,7 +44,7 @@ namespace StarwarsApp
         }
         private void Planets_Search(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(Planets_Activity));
+            var intent = new Intent(this, typeof(PlanetsActivity));
             StartActivity(intent);
         }
         private void Starship_search(object sender, EventArgs e)

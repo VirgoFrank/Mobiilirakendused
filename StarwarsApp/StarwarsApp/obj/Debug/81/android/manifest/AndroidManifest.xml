@@ -4,16 +4,16 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="PeopleActivity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.FilmActivity" />
+    <activity android:label="Films Activity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.FilmActivity" />
     <activity android:icon="@drawable/icon" android:label="Star wars app" android:theme="@style/AppTheme.NoActionBar" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="PeopleActivity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.PeopleActivity" />
-    <activity android:label="Planets_Activity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.Planets_Activity" />
-    <activity android:label="StarshipsActivity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.StarshipsActivity" />
+    <activity android:label="People Activity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.PeopleActivity" />
+    <activity android:label="Planets Activity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.PlanetsActivity" />
+    <activity android:label="Starships Activity" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.StarshipsActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="StarwarsApp.StarwarsApp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

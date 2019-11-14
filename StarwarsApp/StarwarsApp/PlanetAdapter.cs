@@ -42,7 +42,7 @@ namespace StarwarsApp
 
             View view = convertView;
             if (view == null)
-                view = _context.LayoutInflater.Inflate(Resource.Layout.SecondLayout, null);
+                view = _context.LayoutInflater.Inflate(Resource.Layout.Second_Layout, null);
             view.FindViewById<TextView>(Resource.Id.textView1).Text = item.Name;
             view.FindViewById<TextView>(Resource.Id.textView2).Text = item.diameter.ToString();
             view.FindViewById<TextView>(Resource.Id.textView3).Text = item.gravity.ToString();

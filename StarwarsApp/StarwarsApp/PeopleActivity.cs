@@ -13,7 +13,7 @@ using StarwarsApp.Core;
 
 namespace StarwarsApp
 {
-    [Activity(Label = "PeopleActivity")]
+    [Activity(Label = "People Activity")]
     public class PeopleActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

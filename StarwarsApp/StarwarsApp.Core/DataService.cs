@@ -20,8 +20,6 @@ namespace StarwarsApp.Core
             {
                 data = JsonConvert.DeserializeObject<Starships>(response);
             }
-
-
             return data;
         }
 
@@ -35,12 +33,8 @@ namespace StarwarsApp.Core
                 {
                     data = JsonConvert.DeserializeObject<Planets>(response);
                 }
-
-
                 return data;
         }
-
-
 
        public static async Task<People> GetStarWarsPeople(string queryString)
         {
@@ -51,13 +45,10 @@ namespace StarwarsApp.Core
             if (response != null)
             {
                 data = JsonConvert.DeserializeObject<People>(response);
-            }
-            
-               
+            }               
             return data;
-        
-      
         }
+
         public static async Task<Films> GetStarWarsFilms(string queryString)
         {
             HttpClient client = new HttpClient();

@@ -3193,7 +3193,7 @@ containing a value of this type.
         public static final int design_navigation_menu=0x7f040026;
         public static final int design_navigation_menu_item=0x7f040027;
         public static final int design_text_input_password_icon=0x7f040028;
-        public static final int filmlayout=0x7f040029;
+        public static final int film_layout=0x7f040029;
         public static final int notification_action=0x7f04002a;
         public static final int notification_action_tombstone=0x7f04002b;
         public static final int notification_media_action=0x7f04002c;
@@ -3210,7 +3210,7 @@ containing a value of this type.
         public static final int notification_template_part_chronometer=0x7f040037;
         public static final int notification_template_part_time=0x7f040038;
         public static final int search=0x7f040039;
-        public static final int secondlayout=0x7f04003a;
+        public static final int second_layout=0x7f04003a;
         public static final int select_dialog_item_material=0x7f04003b;
         public static final int select_dialog_multichoice_material=0x7f04003c;
         public static final int select_dialog_singlechoice_material=0x7f04003d;

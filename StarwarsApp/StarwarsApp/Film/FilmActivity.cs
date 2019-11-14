@@ -13,7 +13,7 @@ using StarwarsApp.Core;
 
 namespace StarwarsApp
 {
-    [Activity(Label = "PeopleActivity")]
+    [Activity(Label = "Films Activity")]
     public class FilmActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

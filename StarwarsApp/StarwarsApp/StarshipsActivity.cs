@@ -13,7 +13,7 @@ using StarwarsApp.Core;
 
 namespace StarwarsApp
 {
-    [Activity(Label = "StarshipsActivity")]
+    [Activity(Label = "Starships Activity")]
     public class StarshipsActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -28,7 +28,7 @@ namespace StarwarsApp
             {
                 var queryString = "https://swapi.co/api/starships/?search=";
                 var data = await DataService.GetStarWarsStarships(queryString);
-                peopleListView.Adapter = new Starship_Adapter(this, data.Results);
+                peopleListView.Adapter = new StarshipAdapter(this, data.Results);
             }
 
             searchButton.Click += async delegate
@@ -36,7 +36,7 @@ namespace StarwarsApp
                 var searchText = searchfield.Text;
                 var queryString = "https://swapi.co/api/starships/?search=" + searchText;
                 var data = await DataService.GetStarWarsStarships(queryString);
-                peopleListView.Adapter = new Starship_Adapter(this, data.Results);
+                peopleListView.Adapter = new StarshipAdapter(this, data.Results);
 
             };
         }

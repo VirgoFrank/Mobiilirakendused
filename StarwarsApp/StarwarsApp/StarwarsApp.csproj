@@ -60,15 +60,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Film\FilmActivity.cs" />
-    <Compile Include="Film\Film_Adapter.cs" />
+    <Compile Include="Film\FilmAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="PeopleActivity.cs" />
     <Compile Include="PlanetAdapter.cs" />
-    <Compile Include="Planets_Activity.cs" />
+    <Compile Include="PlanetsActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StarshipsActivity.cs" />
-    <Compile Include="Starship_Adapter.cs" />
+    <Compile Include="StarshipAdapter.cs" />
     <Compile Include="StarWarsPeopleAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -115,7 +115,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\SecondLayout.axml">
+    <AndroidResource Include="Resources\layout\Second_Layout.axml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -130,7 +130,7 @@
     <AndroidResource Include="Resources\layout\activity_main.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\FilmLayout.axml">
+    <AndroidResource Include="Resources\layout\Film_Layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
