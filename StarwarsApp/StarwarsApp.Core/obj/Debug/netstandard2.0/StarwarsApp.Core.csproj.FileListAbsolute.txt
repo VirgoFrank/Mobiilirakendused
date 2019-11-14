@@ -40,3 +40,4 @@ C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.AssemblyInfo.cs
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.dll
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.pdb
+C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp.Core\obj\Debug\netstandard2.0\StarwarsApp.Core.csprojAssemblyReference.cache

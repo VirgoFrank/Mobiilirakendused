@@ -15,7 +15,7 @@ namespace StarwarsApp.Core
    public partial class FilmDetails
     {
       public  string Title { get; set; }
-      public DateTimeOffset Created { get; set; }
+      public DateTimeOffset release_date { get; set; }
       public string opening_crawl { get; set; }
 
     }
