@@ -13,10 +13,10 @@ using StarwarsApp.Core;
 
 namespace StarwarsApp
 {
-    [Activity(Label = "Planets Activity")]
+    [Activity(Label = "Planets Activity", Theme = "@style/AppTheme.NoActionBar")]
     public class PlanetsActivity : Activity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Search);
@@ -24,7 +24,7 @@ namespace StarwarsApp
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
 
-            InitailSearchAsync();
+            await InitailSearchAsync();
 
             async System.Threading.Tasks.Task InitailSearchAsync()
             {

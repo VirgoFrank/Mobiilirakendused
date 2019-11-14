@@ -44,7 +44,7 @@ namespace StarwarsApp
             if (view == null)
                 view = _context.LayoutInflater.Inflate(Resource.Layout.Film_Layout, null);
             view.FindViewById<TextView>(Resource.Id.textViewFilm).Text = item.Title;
-           view.FindViewById<TextView>(Resource.Id.textViewAasta).Text = item.release_date.Year.ToString();
+            view.FindViewById<TextView>(Resource.Id.textViewAasta).Text = item.release_date.Year.ToString();
             view.FindViewById<TextView>(Resource.Id.textViewKirjeldus).Text = item.opening_crawl.ToString();
 
             return view;

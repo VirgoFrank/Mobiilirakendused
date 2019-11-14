@@ -21,20 +21,20 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/linearLayout1" >
 		<TextView
-			android:text="Flim"
+			android:text="Title: "
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:gravity="left"
 			android:id="@+id/textViewFilm" />
 		<TextView
-		android:text="Aasta"
+		android:text="Release date: "
 		android:layout_height="wrap_content"
 		android:id="@+id/textViewAasta" 
 		android:gravity="right"
 		android:layout_width="match_parent"/>
 	</LinearLayout>
 	<TextView
-		android:text="Kirjeldus"
+		android:text="Description: "
 		android:layout_height="wrap_content"
 		android:id="@+id/textViewKirjeldus" 
 		android:gravity="left"

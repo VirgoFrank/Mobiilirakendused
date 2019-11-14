@@ -36,7 +36,9 @@ namespace StarwarsApp.Core
                 return data;
         }
 
-       public static async Task<People> GetStarWarsPeople(string queryString)
+      
+
+        public static async Task<People> GetStarWarsPeople(string queryString)
         {
             HttpClient client = new HttpClient();
             var response = await client.GetStringAsync(queryString);
