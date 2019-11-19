@@ -535,8 +535,6 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsAp
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\android\src\md55af6a1ed36f56530b7bbad05edaffdf3\Starship_Adapter.java
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.dll
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.pdb
-C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.StarwarsApp.apk
-C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.StarwarsApp-Signed.apk
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.Core.dll
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.Core.pdb
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -548,7 +546,6 @@ C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\D
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\StarwarsApp.csproj.CopyComplete
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\StarwarsApp.dll
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\StarwarsApp.pdb
-C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\android\bin\StarwarsApp.StarwarsApp.apk
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\res\layout\search.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\res\values\colors.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\res\values\ic_launcher_background.xml
@@ -633,3 +630,6 @@ C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\D
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\res\layout\second_layout.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\res\layout\film_layout.xml
+C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.StarwarsAppVirgo.apk
+C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\bin\Debug\StarwarsApp.StarwarsAppVirgo-Signed.apk
+C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Debug\81\android\bin\StarwarsApp.StarwarsAppVirgo.apk

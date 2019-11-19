@@ -7,7 +7,9 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using Android.Content;
-
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using StarwarsApp;
 using StarwarsApp.Core;
 
@@ -19,6 +21,9 @@ namespace StarwarsApp
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            AppCenter.Start("b3677d26-afd5-4b70-8a2d-f9b23c12fc78",
+                   typeof(Analytics), typeof(Crashes));
+         
 
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
