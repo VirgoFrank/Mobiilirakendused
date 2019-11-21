@@ -9,7 +9,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 using StarwarsApp.Core;
+using static Android.Widget.AdapterView;
 
 namespace StarwarsApp
 {
@@ -24,24 +26,33 @@ namespace StarwarsApp
             var searchfield = FindViewById<EditText>(Resource.Id.searchEditText);
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
-
-        //    var queryString = "https://swapi.co/api/films/?search=";
+           
+            var queryString = "https://swapi.co/api/films/?search=";
            // var data = await DataService.GetStarWarsFilms(queryString);
-          //  var films = await DataService.GetStarWarsFilms();
-          //  peopleListView.Adapter = new Film_Adapter(this, data.Results);
+            var films = await DataService.GetStarWarsFilms(queryString);
+            peopleListView.Adapter = new Film_Adapter(this, films.Results);
             await InitailSearchAsync();
 
             async System.Threading.Tasks.Task InitailSearchAsync()
             {
-                var queryString = "https://swapi.co/api/films/?search=";
                 var data = await DataService.GetStarWarsFilms(queryString);
                 peopleListView.Adapter = new Film_Adapter(this, data.Results);
             }
+            peopleListView.ItemClick += (object sender, ItemClickEventArgs e) =>
+            {
+              //  var clickPositionText = peopleListView.GetItemAtPosition(e.Position);
+               // var clickPositionID = Convert.ToString(e.Position);
+
+                var film = films.Results[e.Position];
+                var intent = new Intent(this, typeof(FilmDetailsActivity));
+                intent.PutExtra("filmDetails", JsonConvert.SerializeObject(film));
+                StartActivity(intent);
+            };
 
             searchButton.Click += async delegate
             {
                 var searchText = searchfield.Text;
-                var queryString = "https://swapi.co/api/films/?search=" + searchText;
+                 queryString = "https://swapi.co/api/films/?search=" + searchText;
                 var data = await DataService.GetStarWarsFilms(queryString);
                 peopleListView.Adapter = new Film_Adapter(this, data.Results);
 

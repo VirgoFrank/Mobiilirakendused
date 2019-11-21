@@ -40,6 +40,7 @@ C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\R
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\res\layout\activity_main.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\res\layout\film_layout.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\res\drawable\icon.jpg
+C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\res\layout\film_details_layout.xml
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\R.cs.flag
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\R.txt
 C:\Users\opilane\Desktop\xamarin\Mobiilirakendused\StarwarsApp\StarwarsApp\obj\Release\81\uploadflags.txt

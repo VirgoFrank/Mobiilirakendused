@@ -2969,7 +2969,10 @@ namespace StarwarsApp
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F030003
-			public const int Film_Layout = 2130903043;
+			public const int Film_details_layout = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int Film_Layout = 2130903044;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3016,11 +3019,11 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030004
-			public const int Search = 2130903044;
-			
 			// aapt resource value: 0x7F030005
-			public const int Second_Layout = 2130903045;
+			public const int Search = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int Second_Layout = 2130903046;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;

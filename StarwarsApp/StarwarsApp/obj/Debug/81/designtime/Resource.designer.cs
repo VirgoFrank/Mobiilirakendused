@@ -2456,8 +2456,11 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
 			
+			// aapt resource value: 0x7F020011
+			public const int FilmsLinearlayout = 2130837521;
+			
 			// aapt resource value: 0x7F020006
-			public const int FilmsLinearlayout = 2130837510;
+			public const int filmTitleTextView = 2130837510;
 			
 			// aapt resource value: 0x7F020005
 			public const int Film_Seach_Button = 2130837509;
@@ -2555,8 +2558,8 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F020013
-			public const int peopleListView = 2130837523;
+			// aapt resource value: 0x7F020014
+			public const int peopleListView = 2130837524;
 			
 			// aapt resource value: 0x7F020002
 			public const int People_search_btn = 2130837506;
@@ -2609,11 +2612,11 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0C005D
 			public const int scrollView = 2131492957;
 			
-			// aapt resource value: 0x7F020012
-			public const int searchButton = 2130837522;
+			// aapt resource value: 0x7F020013
+			public const int searchButton = 2130837523;
 			
-			// aapt resource value: 0x7F020011
-			public const int searchEditText = 2130837521;
+			// aapt resource value: 0x7F020012
+			public const int searchEditText = 2130837522;
 			
 			// aapt resource value: 0x7F0C005F
 			public const int search_badge = 2131492959;
@@ -2714,17 +2717,17 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020014
-			public const int textView1 = 2130837524;
-			
 			// aapt resource value: 0x7F020015
-			public const int textView2 = 2130837525;
+			public const int textView1 = 2130837525;
 			
 			// aapt resource value: 0x7F020016
-			public const int textView3 = 2130837526;
+			public const int textView2 = 2130837526;
 			
 			// aapt resource value: 0x7F020017
-			public const int textView4 = 2130837527;
+			public const int textView3 = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int textView4 = 2130837528;
 			
 			// aapt resource value: 0x7F020009
 			public const int textViewAasta = 2130837513;
@@ -2969,7 +2972,10 @@ namespace StarwarsApp
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F030003
-			public const int Film_Layout = 2130903043;
+			public const int Film_details_layout = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int Film_Layout = 2130903044;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3016,11 +3022,11 @@ namespace StarwarsApp
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030004
-			public const int Search = 2130903044;
-			
 			// aapt resource value: 0x7F030005
-			public const int Second_Layout = 2130903045;
+			public const int Search = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int Second_Layout = 2130903046;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
