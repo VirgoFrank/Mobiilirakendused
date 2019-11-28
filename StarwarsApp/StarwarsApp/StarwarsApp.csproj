@@ -66,14 +66,17 @@
     <Compile Include="Film\FilmActivity.cs" />
     <Compile Include="Film\FilmAdapter.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="PeopleActivity.cs" />
-    <Compile Include="PlanetAdapter.cs" />
-    <Compile Include="PlanetsActivity.cs" />
+    <Compile Include="People\PeopleActivity.cs" />
+    <Compile Include="People\PeopleDetailsActivity.cs" />
+    <Compile Include="Planets\PlanetAdapter.cs" />
+    <Compile Include="Planets\PlanetsActivity.cs" />
+    <Compile Include="Planets\PlanetsDetailsActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StarshipsActivity.cs" />
-    <Compile Include="StarshipAdapter.cs" />
-    <Compile Include="StarWarsPeopleAdapter.cs" />
+    <Compile Include="Starships\StarshipsActivity.cs" />
+    <Compile Include="Starships\StarshipAdapter.cs" />
+    <Compile Include="People\StarWarsPeopleAdapter.cs" />
+    <Compile Include="Starships\StarshipsDetailsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -152,6 +155,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Film_details_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Details.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

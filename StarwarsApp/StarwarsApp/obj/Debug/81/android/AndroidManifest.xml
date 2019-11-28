@@ -14,6 +14,9 @@
     <activity android:label="People Activity" android:theme="@style/AppTheme.NoActionBar" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.PeopleActivity" />
     <activity android:label="Planets Activity" android:theme="@style/AppTheme.NoActionBar" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.PlanetsActivity" />
     <activity android:label="Starships Activity" android:theme="@style/AppTheme.NoActionBar" android:name="md55af6a1ed36f56530b7bbad05edaffdf3.StarshipsActivity" />
+    <activity android:label="StashipsDetailsActivity" android:name="md5643fc15b597f35cf61287803d90b59cc.StarshipsDetailsActivity" />
+    <activity android:label="PlanetsDetailsActivity" android:name="md5538fd2dc21279b7f78ed03fefa5c85ec.PlanetsDetailsActivity" />
+    <activity android:label="PeopleDetailsActivity" android:name="md50c76ba77a4ccf1eedafc8894ab9ebd03.PeopleDetailsActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="StarwarsApp.StarwarsAppVirgo.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
