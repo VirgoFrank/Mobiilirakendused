@@ -1,0 +1,13 @@
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\bin\Debug\netstandard2.0\FirstForms.deps.json
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\bin\Debug\netstandard2.0\FirstForms.dll
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\bin\Debug\netstandard2.0\FirstForms.pdb
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.csprojAssemblyReference.cache
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.AssemblyInfoInputs.cache
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.AssemblyInfo.cs
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.dll
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.pdb
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\NoteEntryPage.xaml.g.cs
+C:\Users\opilane\Desktop\TA18E\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\NotesPage.xaml.g.cs
