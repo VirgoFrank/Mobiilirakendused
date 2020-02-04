@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\Desktop\\TA18E\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {}
+    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\Desktop\\TA18E\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {
+    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\TA18E\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.csproj",
         "projectName": "FirstForms",
-        "projectPath": "C:\\Users\\opilane\\Desktop\\TA18E\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
+        "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\Desktop\\TA18E\\FirstForms\\FirstForms\\FirstForms\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

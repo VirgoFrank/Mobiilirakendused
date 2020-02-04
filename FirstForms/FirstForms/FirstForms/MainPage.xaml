@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FirstForms"
+             x:Class="FirstForms.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry Placeholder="email"></Entry>
+        <Entry Placeholder="Password"></Entry>
+
+        <Button Text="login"></Button>
+        <Button Text="register"></Button>
+        
+        <!--<Label Text="Notes" 
+           HorizontalOptions="Center"
+               FontAttributes="Bold"/>
+        <Editor x:Name="editor"
+                Placeholder="Enter your note"
+                HeightRequest="100"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="SaveButton" Text="Save"/>
+            <Button Grid.Column="1" x:Name="DeleteButton" Text="Delete"/>
+        </Grid>
+        <Entry Placeholder="Enter file name"></Entry>
+        <Button Text="Open"></Button>-->
+    </StackLayout>
+</ContentPage>
