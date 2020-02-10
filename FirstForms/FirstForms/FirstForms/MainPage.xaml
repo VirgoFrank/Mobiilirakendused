@@ -6,11 +6,13 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Entry Placeholder="email"></Entry>
-        <Entry Placeholder="Password"></Entry>
+        <Entry Placeholder="email" x:Name="email"></Entry>
+        <Entry Placeholder="Password" x:Name="Password"></Entry>
 
-        <Button Text="login"></Button>
-        <Button Text="register"></Button>
+        <Button Text="login"
+                Clicked="Login"></Button>
+        <Button Text="register"
+                Clicked="Register"></Button>
         
         <!--<Label Text="Notes" 
            HorizontalOptions="Center"

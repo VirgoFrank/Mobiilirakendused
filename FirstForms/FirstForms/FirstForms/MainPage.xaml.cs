@@ -15,5 +15,21 @@ namespace FirstForms
             InitializeComponent();
         }
 
+        async void Login(object sender, EventArgs e)
+        {
+            var accounts = await App.Database.GetAccountsAsync();
+
+            foreach (var account in accounts)
+            {
+                if(account.Password == Password.Text && account.Email == email.Text)
+                    await Navigation.PushAsync(new NotesPage());
+            }
+
+        }
+
+        async void Register(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
     }
 }

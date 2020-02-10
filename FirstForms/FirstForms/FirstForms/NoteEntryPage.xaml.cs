@@ -16,7 +16,7 @@ namespace FirstForms
 	{
 		public NoteEntryPage ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
