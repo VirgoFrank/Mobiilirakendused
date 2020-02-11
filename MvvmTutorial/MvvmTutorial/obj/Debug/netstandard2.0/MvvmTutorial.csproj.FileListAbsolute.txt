@@ -1,0 +1,11 @@
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.deps.json
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.dll
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.pdb
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csprojAssemblyReference.cache
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfoInputs.cache
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfo.cs
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.dll
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.pdb

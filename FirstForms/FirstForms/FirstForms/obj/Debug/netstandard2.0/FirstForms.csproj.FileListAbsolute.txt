@@ -26,3 +26,5 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\FirstForms\FirstForms\FirstF
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\FirstForms.csprojAssemblyReference.cache
+C:\Users\opilane\Desktop\Mobiilirakendused\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\AccountsPage.xaml.g.cs
+C:\Users\opilane\Desktop\Mobiilirakendused\FirstForms\FirstForms\FirstForms\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs

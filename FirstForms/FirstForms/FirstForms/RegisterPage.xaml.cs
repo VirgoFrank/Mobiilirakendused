@@ -16,19 +16,29 @@ namespace FirstForms
         public RegisterPage()
         {
             InitializeComponent();
+            BindingContext = new Account();
         }
         async void Register(object sender, EventArgs e)
         {
-            var Account = new Account
+            //var Account = new Account
+            //{
+            //    Email = "VirgoEmail",
+            //    Last_name="frank",
+            //    First_Name="virgo",
+            //    Password="1234"
+
+            //};
+            var account = (Account)BindingContext;
+            if(String.IsNullOrWhiteSpace(account.Password)|| String.IsNullOrWhiteSpace(account.Email))
             {
-                Email = "VirgoEmail",
-                Last_name="frank",
-                First_Name="virgo",
-                Password="1234"
-                
-            };
-            await App.Database.SaveAccountsAsync(Account);
-            await Navigation.PushAsync(new AccountsPage());
+
+            }
+            else
+            {
+                await App.Database.SaveAccountsAsync(account);
+                await Navigation.PushAsync(new AccountsPage());
+            }
+           
         }
     }
 }

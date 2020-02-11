@@ -9,8 +9,8 @@
         <StackLayout>
             <Entry Placeholder="email" Text="{Binding Email}"></Entry>
             <Entry Placeholder="Password" Text="{Binding Password}"></Entry>
-            <Entry Placeholder="First name" Text="{Binding First_ame}"></Entry>
-            <Entry Placeholder="Last name" Text="{Binding Text}"></Entry>
+            <Entry Placeholder="First name" Text="{Binding First_Name}"></Entry>
+            <Entry Placeholder="Last name" Text="{Binding Last_Name}"></Entry>
             <Button Text="register"
                 Clicked="Register"></Button>
         </StackLayout>

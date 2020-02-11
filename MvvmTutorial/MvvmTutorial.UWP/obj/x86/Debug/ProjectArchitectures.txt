@@ -1,0 +1,1 @@
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\MvvmTutorial.UWP.csproj;x86

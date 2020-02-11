@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj": {}
+    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj": {
+    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj",
         "projectName": "FirstForms.iOS",
-        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj",
-        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\obj\\",
+        "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\FirstForms.iOS.csproj",
+        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {
-                "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj"
+              "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {
+                "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
         }
       }
     },
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {
+    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
         "projectName": "FirstForms",
-        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
-        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\obj\\",
+        "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\FirstForms.csproj",
+        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\FirstForms\\FirstForms\\FirstForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
