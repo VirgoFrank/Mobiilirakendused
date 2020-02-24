@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {}
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
         "projectName": "MvvmTutorial.test",
-        "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\obj\\",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
+        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
-                "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
+              "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+                "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
               }
             }
           }
@@ -83,21 +83,21 @@
         }
       }
     },
-    "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
         "projectName": "MvvmTutorial",
-        "projectPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\obj\\",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
+        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
