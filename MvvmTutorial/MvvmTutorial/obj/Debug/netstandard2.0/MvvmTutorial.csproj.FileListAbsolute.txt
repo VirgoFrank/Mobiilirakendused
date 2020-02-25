@@ -27,3 +27,10 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\ob
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csprojAssemblyReference.cache
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\Pictures.xaml.g.cs
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csproj.CopyComplete
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.xml

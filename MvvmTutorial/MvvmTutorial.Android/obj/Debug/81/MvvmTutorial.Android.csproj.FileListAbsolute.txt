@@ -729,3 +729,10 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.An
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\europe_map_editable.jpg
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\leeching_in_progress.jpg
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\europemap.png
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\download.jpg
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\europe_1939aug_800x720.jpg
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\europemap.png
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\europe_map_editable.jpg
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\obj\Debug\81\res\drawable\leeching_in_progress.jpg
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\bin\Debug\System.Drawing.Common.dll
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.Android\bin\Debug\System.Drawing.Common.pdb

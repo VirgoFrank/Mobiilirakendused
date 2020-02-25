@@ -10,10 +10,17 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding pictures}">
+            <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding pictures}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell ImageSource="{Binding Name}" Text="{Binding Name}"></ImageCell>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding Name}"></Label>
+                                <Label Text="{Binding Date}"></Label>
+                                <Image VerticalOptions="Fill" Source="{Binding Name}"></Image>
+                               
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

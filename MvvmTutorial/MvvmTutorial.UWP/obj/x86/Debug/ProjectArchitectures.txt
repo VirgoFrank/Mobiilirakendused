@@ -1,1 +1,1 @@
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\MvvmTutorial.UWP.csproj;x86
+C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\MvvmTutorial.UWP.csproj;x86
