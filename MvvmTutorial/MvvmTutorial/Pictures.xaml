@@ -10,6 +10,9 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
+            <Button Clicked="TakePhotoButton_OnClicked" Text="take photo" />
+            <Button Clicked="PickPhotoButton_OnClicked" Text="get photo" />
+            <Image x:Name="MainImage"></Image>
             <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding pictures}">
                 <ListView.ItemTemplate>
                     <DataTemplate>

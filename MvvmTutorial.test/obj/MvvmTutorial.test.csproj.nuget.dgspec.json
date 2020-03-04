@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {}
+    "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {
+    "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
         "projectName": "MvvmTutorial.test",
-        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\MvvmTutorial.test.csproj",
         "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial.test\\obj\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
-                "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
+              "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+                "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -83,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+    "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
         "projectName": "MvvmTutorial",
-        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
         "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\obj\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -127,6 +131,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
