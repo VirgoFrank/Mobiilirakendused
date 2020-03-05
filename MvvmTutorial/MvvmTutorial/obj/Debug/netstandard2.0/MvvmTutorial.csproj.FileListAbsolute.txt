@@ -1,39 +1,54 @@
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.deps.json
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.dll
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.pdb
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csprojAssemblyReference.cache
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfoInputs.cache
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfo.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.dll
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.pdb
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\FirstTabbedPage.xaml.g.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\LanguagesPage.xaml.g.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.deps.json
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.dll
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.pdb
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\FirstTabbedPage.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\LanguagesPage.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\Pictures.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfoInputs.cache
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfo.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.dll
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.pdb
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csprojAssemblyReference.cache
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\Pictures.xaml.g.cs
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\System.Drawing.Common.dll
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csproj.CopyComplete
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.dll
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.pdb
-C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\Mono.Android.xml
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.deps.json
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.dll
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.pdb
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.csprojAssemblyReference.cache
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfoInputs.cache
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfo.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.dll
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.pdb
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/FirstTabbedPage.xaml.g.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/LanguagesPage.xaml.g.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.deps.json
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.dll
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.pdb
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/FirstTabbedPage.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/LanguagesPage.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/Pictures.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfoInputs.cache
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfo.cs
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.dll
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.pdb
+C:/Users/Mina/Desktop/kooli_asjad/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.csprojAssemblyReference.cache
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/Pictures.xaml.g.cs
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/System.Drawing.Common.dll
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/System.Drawing.Common.pdb
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.csproj.CopyComplete
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/Mono.Android.dll
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/Mono.Android.pdb
+C:/Users/opilane/Desktop/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/Mono.Android.xml
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.csprojAssemblyReference.cache
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/FirstTabbedPage.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/LanguagesPage.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/Pictures.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfoInputs.cache
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.AssemblyInfo.cs
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.dll
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/MvvmTutorial.pdb
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.deps.json
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.dll
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/bin/Debug/netstandard2.0/MvvmTutorial.pdb
+/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/Debug/netstandard2.0/XamlC.stamp
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.deps.json
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.dll
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\bin\Debug\netstandard2.0\MvvmTutorial.pdb
@@ -51,7 +66,7 @@ C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\nets
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfoInputs.cache
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.AssemblyInfo.cs
+C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.csproj.CopyComplete
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.dll
 C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\MvvmTutorial.pdb
-C:\Users\Mina\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,4 +1,5 @@
-﻿using Plugin.Media;
+﻿using MvvmTutorial.ViewModels;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -19,45 +20,52 @@ namespace MvvmTutorial
             InitializeComponent();
         }
 
-        private async void TakePhotoButton_OnClicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            await CrossMedia.Current.Initialize();
-
-            //if(!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsPickPhotoSupported)
-            //{
-            //    await si
-            //}
-
-            var file = await CrossMedia.Current.TakePhotoAsync(
-                new StoreCameraMediaOptions
-                {
-                    SaveToAlbum = true
-                }
-            );
-
-            // PathLabel.text = file.AlbumPath;
-
-            MainImage.Source = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                file.Dispose();
-                return stream;
-            });
-
+            base.OnAppearing();
+            (this.BindingContext as PicturesViewModel)?.RefreshList();
         }
-        private async void PickPhotoButton_OnClicked(object sender, EventArgs e)
-        {
-            await CrossMedia.Current.Initialize();
-
-            var file = await CrossMedia.Current.PickPhotoAsync();
-            MainImage.Source = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                file.Dispose();
-                return stream;
-            });
 
 
-        }
+        //private async void takephotobutton_onclicked(object sender, eventargs e)
+        //{
+        //    await crossmedia.current.initialize();
+
+        //    //if(!crossmedia.current.iscameraavailable || !crossmedia.current.ispickphotosupported)
+        //    //{
+        //    //    await si
+        //    //}
+
+        //    var file = await crossmedia.current.takephotoasync(
+        //        new storecameramediaoptions
+        //        {
+        //            savetoalbum = true
+        //        }
+        //    );
+
+        //    // pathlabel.text = file.albumpath;
+
+        //    mainimage.source = imagesource.fromstream(() =>
+        //    {
+        //        var stream = file.getstream();
+        //        file.dispose();
+        //        return stream;
+        //    });
+
+        //}
+        //private async void PickPhotoButton_OnClicked(object sender, EventArgs e)
+        //{
+        //    await CrossMedia.Current.Initialize();
+
+        //    var file = await CrossMedia.Current.PickPhotoAsync();
+        //    MainImage.Source = ImageSource.FromStream(() =>
+        //    {
+        //        var stream = file.GetStream();
+        //        file.Dispose();
+        //        return stream;
+        //    });
+
+
+        //}
     }
 }

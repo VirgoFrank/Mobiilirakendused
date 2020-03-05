@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{4AE41C65-F650-4FF5-AFF2-7F549CC5BB8C}|Default">
+  <MonoDevelop.Ide.ItemProperties.MvvmTutorial.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmTutorial/MvvmTutorial.Android/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="MvvmTutorial/MvvmTutorial/Pictures.xaml" Line="28" Column="41" />
+      <File FileName="MvvmTutorial/MvvmTutorial/ViewModels/PicturesViewModel.cs" Line="5" Column="1" />
+      <File FileName="MvvmTutorial/MvvmTutorial/Pictures.xaml.cs" Line="24" Column="51" />
+      <File FileName="MvvmTutorial/MvvmTutorial.Android/MainActivity.cs" Line="27" Column="12" />
+      <File FileName="MvvmTutorial/MvvmTutorial/MainPage.xaml" />
+      <File FileName="MvvmTutorial/MvvmTutorial/MainPage.xaml.cs" />
+      <File FileName="../../../.nuget/packages/xam.plugin.media/4.0.1.5/readme.txt" Line="31" Column="30" />
+      <File FileName="MvvmTutorial/MvvmTutorial.Android/Resources/xml/file_paths.xml" Line="5" Column="9" />
+      <File FileName="MvvmTutorial/MvvmTutorial.Android/Properties/AndroidManifest.xml" Line="12" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvvmTutorial" expanded="True">
+            <Node name="MvvmTutorial" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Pictures.xaml" expanded="True" />
+            </Node>
+            <Node name="MvvmTutorial.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="xml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
