@@ -955,39 +955,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mina\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/opilane/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.iOS\\MvvmTutorial.iOS.csproj",
+      "projectUniqueName": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.iOS/MvvmTutorial.iOS.csproj",
       "projectName": "MvvmTutorial.iOS",
-      "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.iOS\\MvvmTutorial.iOS.csproj",
-      "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.iOS\\obj\\",
+      "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.iOS/MvvmTutorial.iOS.csproj",
+      "packagesPath": "/Users/opilane/.nuget/packages/",
+      "outputPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/opilane/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
-              "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
+            "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj": {
+              "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj"
             }
           }
         }

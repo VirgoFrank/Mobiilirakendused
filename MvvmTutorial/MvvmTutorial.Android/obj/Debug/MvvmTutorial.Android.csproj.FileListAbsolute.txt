@@ -395,4 +395,3 @@
 /Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/Debug/android/src/crc64a98abb514ffad9f1/KeepAliveService.java
 /Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/Debug/android/src/crc64a98abb514ffad9f1/CustomTabsServiceConnectionImpl.java
 /Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/Debug/res/xml/file_paths.xml
-/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/Debug/stamp/SetupDependenciesForDesigner.stamp

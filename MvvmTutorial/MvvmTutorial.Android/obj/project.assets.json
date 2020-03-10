@@ -1045,39 +1045,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mina\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/opilane/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj",
+      "projectUniqueName": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj",
       "projectName": "MvvmTutorial.Android",
-      "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj",
-      "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\obj\\",
+      "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj",
+      "packagesPath": "/Users/opilane/.nuget/packages/",
+      "outputPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/opilane/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
-              "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
+            "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj": {
+              "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj"
             }
           }
         }
@@ -1122,7 +1115,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Version conflict detected for Xamarin.Android.Support.Compat. Install/reference Xamarin.Android.Support.Compat 28.0.0.3 directly to project MvvmTutorial.Android to resolve this issue. \r\n MvvmTutorial.Android -> MvvmTutorial -> Xamarin.Essentials 1.5.0 -> Xamarin.Android.Support.Compat (>= 28.0.0.3) \r\n MvvmTutorial.Android -> Xamarin.Android.Support.Design 27.0.2.1 -> Xamarin.Android.Support.Compat (= 27.0.2.1).",
+      "message": "Version conflict detected for Xamarin.Android.Support.Compat. Install/reference Xamarin.Android.Support.Compat 28.0.0.3 directly to project MvvmTutorial.Android to resolve this issue. \n MvvmTutorial.Android -> MvvmTutorial -> Xamarin.Essentials 1.5.0 -> Xamarin.Android.Support.Compat (>= 28.0.0.3) \n MvvmTutorial.Android -> Xamarin.Android.Support.Design 27.0.2.1 -> Xamarin.Android.Support.Compat (= 27.0.2.1).",
       "libraryId": "Xamarin.Android.Support.Compat",
       "targetGraphs": [
         "MonoAndroid,Version=v8.1"
