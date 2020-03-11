@@ -115,7 +115,10 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Plugin.Permissions.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Plugin.Media.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Xamarin.Essentials.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Xamarin.Forms.Core.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Xamarin.Forms.Platform.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial.test\bin\Debug\netcoreapp3.1\Xamarin.Forms.Xaml.dll

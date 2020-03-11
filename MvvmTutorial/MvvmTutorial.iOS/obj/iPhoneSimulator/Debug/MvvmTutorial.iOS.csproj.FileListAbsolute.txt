@@ -56,6 +56,10 @@ C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\obj\iPh
 C:\Users\opilane\Desktop\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\obj\iPhoneSimulator\Debug\MvvmTutorial.iOS.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\MvvmTutorial.iOS.exe
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\MvvmTutorial.iOS.pdb
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll

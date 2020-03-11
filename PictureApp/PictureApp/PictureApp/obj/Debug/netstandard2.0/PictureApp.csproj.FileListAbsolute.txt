@@ -1,0 +1,12 @@
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\bin\Debug\netstandard2.0\PictureApp.deps.json
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\bin\Debug\netstandard2.0\PictureApp.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.AssemblyInfoInputs.cache
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.AssemblyInfo.cs
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\bin\Debug\netstandard2.0\ref\PictureApp.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\bin\Debug\netstandard2.0\PictureApp.pdb
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\ref\PictureApp.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.pdb

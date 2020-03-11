@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj": {}
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj": {}
   },
   "projects": {
-    "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj": {
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj",
         "projectName": "MvvmTutorial.Android",
-        "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/MvvmTutorial.Android.csproj",
-        "packagesPath": "/Users/opilane/.nuget/packages/",
-        "outputPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial.Android/obj/",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\MvvmTutorial.Android.csproj",
+        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/opilane/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid81"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj": {
-                "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj"
+              "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+                "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
               }
             }
           }
@@ -68,22 +74,29 @@
         }
       }
     },
-    "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj": {
+    "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj",
+        "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
         "projectName": "MvvmTutorial",
-        "projectPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/MvvmTutorial.csproj",
-        "packagesPath": "/Users/opilane/.nuget/packages/",
-        "outputPath": "/Users/opilane/Desktop/virgo frank/Mobiilirakendused/MvvmTutorial/MvvmTutorial/obj/",
+        "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj",
+        "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/opilane/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -129,7 +142,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

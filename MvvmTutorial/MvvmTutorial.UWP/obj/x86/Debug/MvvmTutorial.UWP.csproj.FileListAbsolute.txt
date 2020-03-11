@@ -309,6 +309,7 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UW
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Core\MvvmTutorial.UWP.exe
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\MvvmTutorial.UWP.build.appxrecipe
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Plugin.Permissions.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\clrcompression.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Microsoft.VisualBasic.dll
@@ -473,6 +474,9 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UW
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\WindowsBase.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\mscorlib.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\netstandard.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Plugin.Media.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Xamarin.Essentials.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
@@ -492,6 +496,9 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UW
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\XamlC.stamp
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\MvvmTutorial.UWP.csproj.CopyComplete
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\Plugin.Media.pri.xml
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\MvvmTutorial.UWP.exe
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\MvvmTutorial\MvvmTutorial.UWP\obj\x86\Debug\MvvmTutorial.UWP.pdb

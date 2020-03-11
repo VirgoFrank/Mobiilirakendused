@@ -7905,11 +7905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\MvvmTutorial.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\MvvmTutorial.UWP.csproj",
       "projectName": "MvvmTutorial.UWP",
-      "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\MvvmTutorial.UWP.csproj",
+      "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\MvvmTutorial.UWP.csproj",
       "packagesPath": "C:\\Users\\Mina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7931,8 +7931,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
-              "projectPath": "C:\\Users\\Mina\\Desktop\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
+            "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj": {
+              "projectPath": "C:\\Users\\Mina\\Desktop\\kooli_asjad\\Mobiilirakendused\\MvvmTutorial\\MvvmTutorial\\MvvmTutorial.csproj"
             }
           }
         }
