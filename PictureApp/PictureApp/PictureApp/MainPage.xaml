@@ -12,20 +12,24 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Button Command="{Binding TakePictureCommand}" Text="take photo" />
-            <Button Command="{Binding GetPictureCommand}" Text="get photo" />
-            <!--<Image x:Name="MainImage"></Image>-->
-            <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding pictures}">
+            <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding pictures}"
+                      SelectedItem="{Binding SelectedPicture}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
+                            
                             <StackLayout>
+                                <Label Text="{Binding Username}"/>
+                                <Image Source="{Binding ProfilePicPath}" WidthRequest="100" HeightRequest="100"/>
                                 <Label Text="{Binding Name}"></Label>
-                                <!--<Label Text="{Binding Date}"></Label>-->
-                                <Image Source="{Binding Source}"></Image>
-
+                                <Image Source="{Binding path}" HeightRequest="300"></Image>
+                                <Label Text="{Binding Likes}"/>
                             </StackLayout>
+                            <!--<ViewCell.ContextActions>
+                                <Button Command="{Binding LikeCommand}"/>
+                            </ViewCell.ContextActions>-->
                         </ViewCell>
+                       
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

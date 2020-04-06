@@ -1,6 +1,11 @@
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\PictureApp.iOS.exe
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\PictureApp.iOS.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb

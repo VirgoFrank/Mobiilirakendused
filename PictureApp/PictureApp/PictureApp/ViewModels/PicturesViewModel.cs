@@ -4,42 +4,89 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace PictureApp.ViewModels
 {
-    class PicturesViewModel
+   
+
+    public class PicturesViewModel:INotifyPropertyChanged, IPageAppearingEvent
     {
         public PicturesViewModel()
         {
-            pictures = new ObservableCollection<Picture>();
-            TakePictureCommand = new Command(OnTakePictureCommand);
-            GetPictureCommand = new Command(OnGetPictureCommand);
-
-            Picture pic1 = new Picture { Name = "download.jpg", Date = DateTime.Now, Source = "download.jpg" };
-            Picture pic2 = new Picture { Name = "europe_1939aug_800x720.jpg", Date = DateTime.Now, Source = "europe_1939aug_800x720.jpg" };
-            Picture pic3 = new Picture { Name = "europeMap.png", Date = DateTime.Now, Source = "europeMap.png" };
-            Picture pic4 = new Picture { Name = "europe_map_editable.jpg", Date = DateTime.Now, Source = "europe_map_editable.jpg" };
-
-            pictures.Add(pic1);
-            pictures.Add(pic2);
-            pictures.Add(pic3);
-            pictures.Add(pic4);
-
-            //_pictures = new ObservableCollection<Picture> { 
-            //new Picture { Name = "download.jpg", Date=DateTime.Now },
-            //new Picture {Name= "europe_1939aug_800x720.jpg",Date=DateTime.Now },
-            //new Picture {Name= "europeMap.png",Date=DateTime.Now },
-            //new Picture {Name= "europe_map_editable.jpg",Date=DateTime.Now}};
+            Users = new List<Account>();
+            LikeCommand = new Command(LikePicture);
+            pictures = new List<Picture>();
+            GetImages();
         }
 
+        public ICommand LikeCommand { get;private set; }
+        public int Likes { get; set; }
 
+        public void OnAppearing()
+        {
+            GetImages();
+        }
 
+        public void LikePicture()
+        {
+            SelectedPicture.Likes++;
+            App.Database.SavePictureAsync(SelectedPicture);
+        }
 
-        private ObservableCollection<Picture> _pictures;
-        public ObservableCollection<Picture> pictures
+        private async void GetImages()
+        {
+            pictures = await App.Database.GetPicturesAsync();
+            for (int i = 0; i < pictures.Count; i++)
+            {
+                Users.Add(App.Database.GetAccountAsync(pictures[i].UserId).Result);
+                pictures[i].Username = Users[i].Username;
+                pictures[i].ProfilePicPath = Users[i].ProfilePicPath;
+
+            }
+        }
+      
+
+        private Picture _SelectedPicture { get; set; }
+        public Picture SelectedPicture
+        {
+            get { return _SelectedPicture; }
+            set
+            {
+                if (_SelectedPicture != value)
+                {
+                    _SelectedPicture = value;
+                    GoToComment(_SelectedPicture.Id);
+                }
+            }
+        }
+
+        public async void GoToComment(int PictureId)
+        {
+            Application.Current.Properties["PictureId"] = PictureId;
+
+            await Application.Current.MainPage.Navigation.PushAsync(new CommentPage ());
+        }
+
+        private List<Account> _Users;
+        public List<Account> Users
+        {
+            get {return _Users;}
+            set
+            {
+                if (_Users != value)
+                {
+                    _Users = value;
+                    OnPropertyChanged(nameof(Users));
+                }
+            }
+        }
+
+        private List<Picture> _pictures;
+        public List<Picture> pictures
         {
             get { return _pictures; }
             set
@@ -51,72 +98,12 @@ namespace PictureApp.ViewModels
                 }
             }
         }
-
-        public ICommand TakePictureCommand { get; private set; }
-        public ICommand GetPictureCommand { get; private set; }
-
-        private async void OnTakePictureCommand()
-        {
-            await CrossMedia.Current.Initialize();
-
-            //if(!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsPickPhotoSupported)
-            //{
-            //    await si
-            //}
-
-            var file = await CrossMedia.Current.TakePhotoAsync(
-                new Plugin.Media.Abstractions.StoreCameraMediaOptions
-                {
-                    SaveToAlbum = true
-                }
-            );
-
-            // PathLabel.text = file.AlbumPath;
-
-            var image = new Picture();
-            image.Name = "New picture";
-            //image.Url = ImageSource.FromStream(file.Path);
-
-
-            image.Source = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                return stream;
-            });
-
-            pictures.Add(image);
-
-        }
-
-        private async void OnGetPictureCommand()
-        {
-            await CrossMedia.Current.Initialize();
-
-            var image = new Picture();
-            image.Name = "New picture";
-            //image.Url = ImageSource.FromStream(file.Path);
-            var file = await CrossMedia.Current.PickPhotoAsync();
-
-            image.Source = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                return stream;
-            });
-
-            pictures.Add(image);
-
-
-        }
-
-        public void RefreshList()
-        {
-            var test = "asd";
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string name)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        
     }
 }

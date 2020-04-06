@@ -14,21 +14,6 @@
         <Button Text="register"
                 Clicked="Register"></Button>
         
-        <!--<Label Text="Notes" 
-           HorizontalOptions="Center"
-               FontAttributes="Bold"/>
-        <Editor x:Name="editor"
-                Placeholder="Enter your note"
-                HeightRequest="100"/>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" x:Name="SaveButton" Text="Save"/>
-            <Button Grid.Column="1" x:Name="DeleteButton" Text="Delete"/>
-        </Grid>
-        <Entry Placeholder="Enter file name"></Entry>
-        <Button Text="Open"></Button>-->
+       
     </StackLayout>
 </ContentPage>
