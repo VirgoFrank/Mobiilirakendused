@@ -1,6 +1,7 @@
 ﻿using PictureApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
 using System.Windows.Input;
@@ -19,7 +20,7 @@ namespace PictureApp.ViewModels
         public CommentViewModel()
         {
             PostCommand = new Command(Post);
-            Comments = new List<Comment>();
+            Comments = new ObservableCollection<Comment>();
             LikeCommand = new Command(Like);
             Likes = App.Database.GetPictureAsync((int)Application.Current.Properties["PictureId"]).Result.Likes;
             GetComments();
@@ -40,8 +41,8 @@ namespace PictureApp.ViewModels
             }
         }
 
-        private List<Comment> _comments;
-        public List<Comment> Comments
+        private ObservableCollection<Comment> _comments;
+        public ObservableCollection<Comment> Comments
         {
             get { return _comments; }
             set

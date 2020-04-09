@@ -22,7 +22,12 @@
                                 <Label Text="{Binding Username}"/>
                                 <Image Source="{Binding ProfilePicPath}" WidthRequest="100" HeightRequest="100"/>
                                 <Label Text="{Binding Name}"></Label>
-                                <Image Source="{Binding path}" HeightRequest="300"></Image>
+                                <Image Source="{Binding path}" HeightRequest="300">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="DoubleTapped" NumberOfTapsRequired="2" CommandParameter="{Binding .}"/>
+                                    </Image.GestureRecognizers>
+                                    
+                                </Image>
                                 <Label Text="{Binding Likes}"/>
                             </StackLayout>
                             <!--<ViewCell.ContextActions>

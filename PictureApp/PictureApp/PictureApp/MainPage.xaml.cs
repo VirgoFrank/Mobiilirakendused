@@ -1,4 +1,5 @@
-﻿using PictureApp.ViewModels;
+﻿using PictureApp.Models;
+using PictureApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+
 
 namespace PictureApp
 {
@@ -18,6 +20,7 @@ namespace PictureApp
         {
             InitializeComponent();
         }
+        
         protected override void OnBindingContextChanged()
         {
             base.OnBindingContextChanged();
@@ -29,6 +32,15 @@ namespace PictureApp
 
                 base.Appearing += (object sender, EventArgs e) => lifecycleHandler.OnAppearing();
             }
+        }
+         void DoubleTapped(object sender, EventArgs args)
+        {
+            var SelectedImage = sender as Image;
+
+            var selectedItem = SelectedImage.BindingContext as Picture;
+
+            var PictureViewModel = new PicturesViewModel();
+            PictureViewModel.Like(selectedItem);
         }
     }
 }

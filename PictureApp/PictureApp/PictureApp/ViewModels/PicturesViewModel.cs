@@ -11,35 +11,64 @@ using Xamarin.Forms;
 
 namespace PictureApp.ViewModels
 {
-   
 
-    public class PicturesViewModel:INotifyPropertyChanged, IPageAppearingEvent
+
+    public class PicturesViewModel : INotifyPropertyChanged, IPageAppearingEvent
     {
         public PicturesViewModel()
         {
             Users = new List<Account>();
-            LikeCommand = new Command(LikePicture);
-            pictures = new List<Picture>();
-            GetImages();
+            pictures = new ObservableCollection<Picture>();
+            // GetImages();
         }
 
-        public ICommand LikeCommand { get;private set; }
-        public int Likes { get; set; }
 
         public void OnAppearing()
         {
             GetImages();
         }
 
-        public void LikePicture()
+        public async void Like(Picture LikedImage)
         {
-            SelectedPicture.Likes++;
-            App.Database.SavePictureAsync(SelectedPicture);
+            var user = App.Database.GetAccountAsync((int)Application.Current.Properties["user_id"]).Result;
+            var Post = LikedImage;
+            GetImages();
+            var Likeslist = App.Database.GetLikesAsync().Result;
+            foreach (var like in Likeslist)
+            {
+                if (user.Id == like.UserId && like.PostId == LikedImage.Id)
+                {
+                    await App.Database.DeleteLikeAsync(like);
+                    foreach (var pic in pictures)
+                    {
+                        if (pic.Id == LikedImage.Id)
+                        {
+                            pic.Likes--;
+                            await App.Database.SavePictureAsync(pic);
+                            GetImages();
+                        }
+                    }
+                    return;
+                }
+            }
+            var NewLike = new Likes() { PostId = Post.Id, UserId = user.Id };
+            await App.Database.SaveLikesAsync(NewLike);
+            foreach (var pic in pictures)
+            {
+                if (pic.Id == LikedImage.Id)
+                {
+                    pic.Likes++;
+                    await App.Database.SavePictureAsync(pic);
+                    GetImages();
+                }
+
+            }
         }
 
-        private async void GetImages()
+        private void GetImages()
         {
-            pictures = await App.Database.GetPicturesAsync();
+            pictures = App.Database.GetPicturesAsync();
+
             for (int i = 0; i < pictures.Count; i++)
             {
                 Users.Add(App.Database.GetAccountAsync(pictures[i].UserId).Result);
@@ -48,7 +77,6 @@ namespace PictureApp.ViewModels
 
             }
         }
-      
 
         private Picture _SelectedPicture { get; set; }
         public Picture SelectedPicture
@@ -60,6 +88,7 @@ namespace PictureApp.ViewModels
                 {
                     _SelectedPicture = value;
                     GoToComment(_SelectedPicture.Id);
+
                 }
             }
         }
@@ -68,13 +97,13 @@ namespace PictureApp.ViewModels
         {
             Application.Current.Properties["PictureId"] = PictureId;
 
-            await Application.Current.MainPage.Navigation.PushAsync(new CommentPage ());
+            await Application.Current.MainPage.Navigation.PushAsync(new CommentPage());
         }
 
         private List<Account> _Users;
         public List<Account> Users
         {
-            get {return _Users;}
+            get { return _Users; }
             set
             {
                 if (_Users != value)
@@ -85,8 +114,8 @@ namespace PictureApp.ViewModels
             }
         }
 
-        private List<Picture> _pictures;
-        public List<Picture> pictures
+        private ObservableCollection<Picture> _pictures;
+        public ObservableCollection<Picture> pictures
         {
             get { return _pictures; }
             set
@@ -104,6 +133,6 @@ namespace PictureApp.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-        
+
     }
 }

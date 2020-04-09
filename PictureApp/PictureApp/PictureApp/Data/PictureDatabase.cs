@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading.Tasks;
 using PictureApp.Models;
@@ -21,9 +22,13 @@ namespace PictureApp.Data
             _database.CreateTableAsync<Likes>().Wait();
         }
 
-        public Task<List<Picture>> GetPicturesAsync()
+        public ObservableCollection<Picture> GetPicturesAsync()
         {
-            return _database.Table<Picture>().ToListAsync();
+            var list= _database.Table<Picture>().ToListAsync();
+            ObservableCollection<Picture> pictures = new ObservableCollection<Picture>();
+            foreach (var item in list.Result)
+                pictures.Add(item);
+            return pictures;
         }
 
         public Task<Picture> GetPictureAsync(int id)
