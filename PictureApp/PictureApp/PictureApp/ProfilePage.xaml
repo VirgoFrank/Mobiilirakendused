@@ -5,18 +5,89 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
               xmlns:vm="clr-namespace:PictureApp.ViewModels"
              mc:Ignorable="d"
-             x:Class="PictureApp.ProfilePage">
+             x:Class="PictureApp.ProfilePage"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms">
     <ContentPage.BindingContext>
         <vm:ProfileViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Text="{Binding Username}"/>
-            <Entry Text="{Binding Password}"/>
-            <Image Source="{Binding source}" HeightRequest="200" WidthRequest="200"/>
-            <Button Command="{Binding TakePictureCommand}" Text="take photo" />
-            <Button Command="{Binding GetPictureCommand}" Text="get photo" />
-            <Button Text="save" Command="{Binding SaveUserChanges}" ></Button>
+            <inputLayout:SfTextInputLayout
+                Hint="Username"
+                ContainerType="Outlined"
+                >
+                <Entry Placeholder="Username" Text="{Binding Username}"/>
+            </inputLayout:SfTextInputLayout>
+
+            <inputLayout:SfTextInputLayout
+                Hint="Password"
+                 ContainerType="Outlined">
+                <Entry Placeholder="Password" Text="{Binding Password}"
+                   IsPassword="True"/>
+            </inputLayout:SfTextInputLayout>
+            <!--<Entry  Text="{Binding Username}"/>
+            <Entry Text="{Binding Password}"/>-->
+            <Frame CornerRadius="100" Padding="0" IsClippedToBounds="True"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   HorizontalOptions="Center">
+                <Image Source="{Binding source}" HeightRequest="200" WidthRequest="200"/>
+
+            </Frame>
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding TakePictureCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Take photo"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Command="{Binding TakePictureCommand}" Text="take photo" />-->
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GetPictureCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Get photo"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Command="{Binding GetPictureCommand}" Text="get photo" />-->
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SaveUserChanges}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Save"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Text="save" Command="{Binding SaveUserChanges}" ></Button>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

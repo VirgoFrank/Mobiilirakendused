@@ -11,9 +11,9 @@ C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\Pictur
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.AssemblyInfoInputs.cache
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.AssemblyInfo.cs
-C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\ref\PictureApp.dll
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.pdb
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\PictureApp.csprojAssemblyReference.cache
 C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\CommentPage.xaml.g.cs
+C:\Users\Mina\Desktop\kooli_asjad\Mobiilirakendused\PictureApp\PictureApp\PictureApp\obj\Debug\netstandard2.0\XamlC.stamp

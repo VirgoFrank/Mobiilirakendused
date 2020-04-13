@@ -12,29 +12,49 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding pictures}"
+            <ListView x:Name="pictureList" VerticalOptions="FillAndExpand" HasUnevenRows="True"
+                      ItemsSource="{Binding pictures}"
                       SelectedItem="{Binding SelectedPicture}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            
+
                             <StackLayout>
-                                <Label Text="{Binding Username}"/>
-                                <Image Source="{Binding ProfilePicPath}" WidthRequest="100" HeightRequest="100"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame CornerRadius="100" Padding="0" IsClippedToBounds="True"
+                                   HeightRequest="100"
+                                   WidthRequest="100"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">
+                                        <Image Source="{Binding ProfilePicPath}" WidthRequest="100" HeightRequest="100"/>
+                                    </Frame>
+                                    <Label Text="{Binding Username}"/>
+                                </StackLayout>
+                                
+
                                 <Label Text="{Binding Name}"></Label>
                                 <Image Source="{Binding path}" HeightRequest="300">
                                     <Image.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="DoubleTapped" NumberOfTapsRequired="2" CommandParameter="{Binding .}"/>
+                                        <TapGestureRecognizer Tapped="DoubleTapped" NumberOfTapsRequired="2"
+                                                              CommandParameter="{Binding .}"/>
                                     </Image.GestureRecognizers>
-                                    
+
                                 </Image>
-                                <Label Text="{Binding Likes}"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <!--<Image Source="https://previews.123rf.com/images/urfandadashov/urfandadashov1808/urfandadashov180818418/108188385-big-heart-and-little-heart-vector-icon-isolated-on-transparent-background-big-heart-and-little-heart.jpg"
+                                           HeightRequest="50"
+                                           WidthRequest="50"
+                                           />-->
+                                    <Label Text="{Binding Likes} "/>
+                                    <Label Text=" Likes"/>
+                                </StackLayout>
+                               
                             </StackLayout>
                             <!--<ViewCell.ContextActions>
                                 <Button Command="{Binding LikeCommand}"/>
                             </ViewCell.ContextActions>-->
                         </ViewCell>
-                       
+
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

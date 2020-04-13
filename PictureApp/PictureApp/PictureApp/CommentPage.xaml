@@ -5,17 +5,41 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
               xmlns:vm="clr-namespace:PictureApp.ViewModels"
-             x:Class="PictureApp.CommentPage">
+             x:Class="PictureApp.CommentPage"
+              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms">
     <ContentPage.BindingContext>
         <vm:CommentViewModel/>
     </ContentPage.BindingContext>
         <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding PictureId}"/>
-            <Button Text="Like Post" Command="{Binding LikeCommand}"></Button>
-            <Label Text="{Binding Likes}"/>
-            <Entry Text="{Binding CommentText}"/>
-            <Button Text="Post" Command="{Binding PostCommand}"/>
+            <!--<Label Text="{Binding PictureId}"/>-->
+            <!--<Button Text="Like Post" Command="{Binding LikeCommand}"></Button>-->
+            <!--<Label Text="{Binding Likes}"/>-->
+            <inputLayout:SfTextInputLayout
+                ContainerType="Outlined"
+                Hint="Comment"
+                >
+                <Entry Text="{Binding CommentText}"/>
+            </inputLayout:SfTextInputLayout>
+           
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding PostCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Comment"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Text="Post" Command="{Binding PostCommand}"/>-->
             <ListView VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemsSource="{Binding Comments}">
                 <ListView.ItemTemplate>
                     <DataTemplate>

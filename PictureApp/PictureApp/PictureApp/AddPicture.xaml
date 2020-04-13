@@ -5,16 +5,74 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
               xmlns:vm="clr-namespace:PictureApp.ViewModels"
              mc:Ignorable="d"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              x:Class="PictureApp.AddPicture">
     <ContentPage.BindingContext>
         <vm:AddPictureViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Button Command="{Binding TakePictureCommand}" Text="take photo" />
-            <Button Command="{Binding GetPictureCommand}" Text="get photo" />
-            <Button Command="{Binding SavePictureCommand}" Text="save picture" />
-            <Entry Text="{Binding Name}"></Entry>
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding TakePictureCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Take photo"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Command="{Binding TakePictureCommand}" Text="take photo" />-->
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GetPictureCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Get photo"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Command="{Binding GetPictureCommand}" Text="get photo" />-->
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SavePictureCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Post"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Command="{Binding SavePictureCommand}" Text="save picture" />-->
+            <inputLayout:SfTextInputLayout
+                ContainerType="Outlined"
+                Hint="Title"
+                >
+                <Entry Text="{Binding Name}"/>
+            </inputLayout:SfTextInputLayout>
+            <!--<Entry Placeholder="Image title" Text="{Binding Name}"></Entry>-->
             <Image Source="{Binding source}"/>
             
 

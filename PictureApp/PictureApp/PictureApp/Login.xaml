@@ -5,17 +5,61 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:vm="clr-namespace:PictureApp.ViewModels"
-             x:Class="PictureApp.Login">
+             x:Class="PictureApp.Login"
+             Title="Login Page"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms">
     <ContentPage.BindingContext>
         <vm:LoginViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Username" Text="{Binding Username}"></Entry>
-            <Entry Placeholder="Password" Text="{Binding Password}"></Entry>
-            <Button Text="Login"
-               Command="{Binding LoginCommand}"></Button>
-            <Button Text="Register account" Command="{Binding GoToRegister}"/>
+            <inputLayout:SfTextInputLayout
+                Hint="Username"
+                ContainerType="Outlined"
+                >
+                <Entry Placeholder="Username" Text="{Binding Username}"/>
+            </inputLayout:SfTextInputLayout>
+
+            <inputLayout:SfTextInputLayout
+                Hint="Password"
+                 ContainerType="Outlined">
+                <Entry Placeholder="Password" Text="{Binding Password}"
+                   IsPassword="True"/>
+            </inputLayout:SfTextInputLayout>
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="Cyan"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding LoginCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Login"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>
+            </Frame>
+            <Frame
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                HeightRequest="30"
+                Margin="30,15"
+                BackgroundColor="YellowGreen"
+                CornerRadius="40">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GoToRegister}"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Go to register page"
+                       TextColor="White"
+                       FontSize="Large"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       />
+            </Frame>
+            <!--<Button Text="Register account" Command="{Binding GoToRegister}"/>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
