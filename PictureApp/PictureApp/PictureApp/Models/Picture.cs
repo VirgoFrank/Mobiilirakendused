@@ -17,5 +17,6 @@ namespace PictureApp.Models
         public int UserId { get; set; }
         public string Username { get; set; }
         public string ProfilePicPath { get; set; }
+        public int Comments { get; set; }
     }
 }

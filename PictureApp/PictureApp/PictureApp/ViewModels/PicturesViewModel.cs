@@ -13,22 +13,26 @@ namespace PictureApp.ViewModels
 {
 
 
-    public class PicturesViewModel : INotifyPropertyChanged, IPageAppearingEvent
+    public  class PicturesViewModel : INotifyPropertyChanged, IPageAppearingEvent
     {
         public PicturesViewModel()
         {
             Users = new List<Account>();
             pictures = new ObservableCollection<Picture>();
+            LikePost = new Command<Picture>(Like);
             // GetImages();
         }
-
+      
 
         public void OnAppearing()
         {
             GetImages();
+            GetComments();
         }
 
-        public async void Like(Picture LikedImage)
+        public ICommand LikePost { get; set; }
+
+        public  async void Like(Picture LikedImage)
         {
             var user = App.Database.GetAccountAsync((int)Application.Current.Properties["user_id"]).Result;
             var Post = LikedImage;
@@ -45,7 +49,7 @@ namespace PictureApp.ViewModels
                         {
                             pic.Likes--;
                             await App.Database.SavePictureAsync(pic);
-                            GetImages();
+                           
                         }
                     }
                     return;
@@ -59,23 +63,40 @@ namespace PictureApp.ViewModels
                 {
                     pic.Likes++;
                     await App.Database.SavePictureAsync(pic);
-                    GetImages();
+                   
                 }
 
             }
+        }
+        private void GetComments()
+        {
+            var Comments = App.Database.GetCommentsAsync().Result;
+
+            for (int i = 0; i < Comments.Count; i++)
+            {
+                for (int j = 0; j < pictures.Count; j++)
+                {
+                    // pictures[j].Comments = 0;
+                    if (Comments[i].PictureId == pictures[j].Id)
+                        pictures[j].Comments++;
+                }
+            }
+
+
         }
 
         private void GetImages()
         {
             pictures = App.Database.GetPicturesAsync();
-
+            Users = App.Database.GetAccountsAsync().Result;
             for (int i = 0; i < pictures.Count; i++)
             {
                 Users.Add(App.Database.GetAccountAsync(pictures[i].UserId).Result);
                 pictures[i].Username = Users[i].Username;
                 pictures[i].ProfilePicPath = Users[i].ProfilePicPath;
-
+               
             }
+           
         }
 
         private Picture _SelectedPicture { get; set; }
@@ -127,7 +148,7 @@ namespace PictureApp.ViewModels
                 }
             }
         }
-        public event PropertyChangedEventHandler PropertyChanged;
+        public  event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string name)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));

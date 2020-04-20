@@ -60,6 +60,7 @@ namespace PictureApp.ViewModels
 
         public void GetComments()
         {
+            Comments = new ObservableCollection<Comment>();
             var commenstlist = App.Database.GetCommentsAsync().Result;
             PictureId = (int)Application.Current.Properties["PictureId"];
             for (int i = 0; i < commenstlist.Count; i++)
@@ -101,6 +102,7 @@ namespace PictureApp.ViewModels
             var comment = new Comment() { CommentText = CommentText, UserId = (int)Application.Current.Properties["user_id"], Username = Username,
             PictureId= (int)Application.Current.Properties["PictureId"]};
             await  App.Database.SaveCommentsAsync(comment);
+           
             GetComments();
         }
     }

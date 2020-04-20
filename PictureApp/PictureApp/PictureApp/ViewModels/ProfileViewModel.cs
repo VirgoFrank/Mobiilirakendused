@@ -61,6 +61,7 @@ namespace PictureApp.ViewModels
                     // SaveToAlbum = true
                 }
             );
+            Pic.path = file.Path;
             source = file.Path;
         }
 
